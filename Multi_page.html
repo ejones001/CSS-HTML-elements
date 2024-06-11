@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Entertainment Page</title>
+<style>
+    /* Task 1: Interactive Navigation Links */
+    nav {
+        background-color: #333;
+        padding: 10px 0;
+        text-align: center;
+    }
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 20px;
+        margin: 0 5px;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+    nav a:hover {
+        background-color: #555;
+    }
+
+    /* Task 2: Eye-catching Image Gallery */
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .gallery img {
+        width: 200px;
+        margin: 10px;
+        transition: transform 0.3s;
+    }
+    .gallery img:hover {
+        transform: scale(1.1);
+    }
+
+    /* Task 3: Dynamic Call-to-Action Buttons */
+    .cta-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+        transition: background-color 0.3s, transform 0.2s;
+        margin: 10px;
+    }
+    .cta-button:hover {
+        background-color: #0056b3;
+        transform: scale(1.05);
+    }
+
+    /* Task 4: Interactive Form */
+    .feedback-form {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .feedback-form input[type="text"],
+    .feedback-form textarea,
+    .feedback-form input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        transition: border-color 0.3s;
+    }
+    .feedback-form input[type="text"]:focus,
+    .feedback-form textarea:focus {
+        border-color: #007bff;
+    }
+    .feedback-form input[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.2s;
+    }
+    .feedback-form input[type="submit"]:hover {
+        background-color: #0056b3;
+        transform: scale(1.05);
+    }
+</style>
+</head>
+<body>
+
+<!-- Task 1: Interactive Navigation Links -->
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Movies</a>
+    <a href="#">Music</a>
+    <a href="#">Games</a>
+</nav>
+
+<!-- Task 2: Eye-catching Image Gallery -->
+<div class="gallery">
+    <img src="movie1.jpg" alt="Movie 1">
+    <img src="movie2.jpg" alt="Movie 2">
+    <img src="music1.jpg" alt="Music 1">
+    <img src="music2.jpg" alt="Music 2">
+    <img src="game1.jpg" alt="Game 1">
+    <img src="game2.jpg" alt="Game 2">
+</div>
+
+<!-- Task 3: Dynamic Call-to-Action Buttons -->
+<a href="#" class="cta-button">Watch Now</a>
+<a href="#" class="cta-button">Listen Here</a>
+<a href="#" class="cta-button">Play Game</a>
+
+<!-- Task 4: Interactive Form -->
+<form class="feedback-form">
+    <input type="text" placeholder="Name">
+    <input type="text" placeholder="Email">
+    <textarea placeholder="Your feedback"></textarea>
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
